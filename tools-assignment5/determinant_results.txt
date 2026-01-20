@@ -1,0 +1,21 @@
+3	0.5000000000	0.2500000000
+5	0.5000000000	0.0625000000
+7	0.5000000000	0.0156250000
+9	0.5000000000	0.0039062500
+1: Does the value t* depend on the choice of odd n?
+ No.
+The optimal value is t* = 0.5 for all odd values of n.
+This value is independent of the matrix size n.
+
+2: Does det(A(t*)) depend on the choice of odd n?
+ Yes.
+The minimum determinant det(A(t*)) depends on n.
+It follows: det(A(t*)) = (1/2)^(n-1)
+
+Observed values:
+  n=3: det(A(t*)) = 0.25       = (1/2)^2
+  n=5: det(A(t*)) = 0.0625     = (1/2)^4
+  n=7: det(A(t*)) = 0.015625   = (1/2)^6
+  n=9: det(A(t*)) = 0.00390625 = (1/2)^8
+
+The determinant decreases exponentially as n increases.
