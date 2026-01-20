@@ -1,0 +1,43 @@
+Arnoldi Iteration: m=100, N=10
+Initial vector q1 computed, ||q1|| = 1.000000000000000e+00
+
+  Iteration n = 1
+    h_{2,1} = 8.188978329459198e+00
+  Iteration n = 2
+    h_{3,2} = 8.124132930540096e+00
+  Iteration n = 3
+    h_{4,3} = 8.660645918967473e+00
+  Iteration n = 4
+    h_{5,4} = 8.019142252827363e+00
+  Iteration n = 5
+    h_{6,5} = 8.106796119255160e+00
+  Iteration n = 6
+    h_{7,6} = 7.679837653474899e+00
+  Iteration n = 7
+    h_{8,7} = 8.033758416884190e+00
+  Iteration n = 8
+    h_{9,8} = 7.361928600556114e+00
+  Iteration n = 9
+    h_{10,9} = 7.188494689463583e+00
+  Iteration n = 10
+    h_{11,10} = 7.671368507278743e+00
+||A*QN - Q_{N+1}*H||_F = 1.190895957651509e-14
+SUCCESS: Arnoldi relation verified 
+
+Checking Q^dagger*Q = I:
+Sample diagonal elements (should be 1.0):
+  Q^dagger*Q[1,1] = (1.000000e+00, 0.000000e+00), error = 2.220446e-16
+  Q^dagger*Q[2,2] = (1.000000e+00, 0.000000e+00), error = 4.440892e-16
+  Q^dagger*Q[3,3] = (1.000000e+00, 0.000000e+00), error = 2.220446e-16
+  Q^dagger*Q[11,11] = (1.000000e+00, 0.000000e+00), error = 0.000000e+00
+
+Max diagonal error:     4.440892e-16
+Max off-diagonal error: 1.086109e-16
+
+SUCCESS: Q vectors are orthonormal 
+
+  Q^dagger*q1: max error = 2.220448e-16
+  Q^dagger*q2: max error = 4.440903e-16
+  Q^dagger*q3: max error = 2.220451e-16
+  Q^dagger*q11: max error = 2.220452e-16
+

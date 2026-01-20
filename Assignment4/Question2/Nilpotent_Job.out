@@ -1,0 +1,105 @@
+
+
+###############################################################################
+TCHPC Cluster: seagull
+Job 37004 (Nilpotent_Job) for User 'xniu' in Account 'mschpc'
+Finished at: Tue Jan 20 23:47:56 GMT 2026
+
+Job efficiency estimates:
+=========================
+
+Job ID: 37004
+Cluster: seagull
+User/Group: xniu/xniu
+State: RUNNING
+Cores: 1
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:00:00 core-walltime
+Job Wall-clock time: 00:00:00
+Memory Utilized: 0.00 MB
+Memory Efficiency: 0.00% of 61.52 GB (61.52 GB/node)
+WARNING: Efficiency statistics can only be obtained after the job has ended as seff tool is based on the accounting database data.
+
+Job completion status:
+======================
+
+JobID           JobName AllocCPUS NTasks NNodes     MaxRSS    MaxRSSNode  MaxDiskRead MaxDiskWrite    Elapsed      State ExitCode 
+------------ ---------- --------- ------ ------ ---------- ------------- ------------ ------------ ---------- ---------- -------- 
+37004        Nilpotent+         1             1                                                      00:00:00    RUNNING      0:0 
+37004.batch       batch         1      1      1     45624K  seagull-n001            0        0.00M   00:00:02  COMPLETED      0:0 
+37004.extern     extern         1      1      1                                                      00:00:00    RUNNING      0:0 
+
+
+Job details:
+============
+
+JobId=37004 JobName=Nilpotent_Job
+   UserId=xniu(2220) GroupId=xniu(2152) MCS_label=N/A
+   Priority=347028 Nice=0 Account=mschpc QOS=normal
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=00:00:02 TimeLimit=1-00:00:00 TimeMin=N/A
+   SubmitTime=2026-01-20T22:12:16 EligibleTime=2026-01-20T22:12:16
+   AccrueTime=2026-01-20T22:12:16
+   StartTime=2026-01-20T23:47:54 EndTime=2026-01-20T23:47:56 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-01-20T23:47:54 Scheduler=Backfill
+   Partition=compute AllocNode:Sid=seagull01.cluster:1383013
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=seagull-n001
+   BatchHost=seagull-n001
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=63000M,node=1,billing=1
+   AllocTRES=cpu=1,mem=63000M,node=1,billing=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   JOB_GRES=(null)
+     Nodes=seagull-n001 CPU_IDs=0 Mem=63000 GRES=
+   MinCPUsNode=1 MinMemoryNode=63000M MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/users/mschpc/2025/xniu/Assignment4/Question2/submit.sh
+   WorkDir=/home/users/mschpc/2025/xniu/Assignment4/Question2
+   StdErr=/home/users/mschpc/2025/xniu/Assignment4/Question2/./Nilpotent_Job.err
+   StdIn=/dev/null
+   StdOut=/home/users/mschpc/2025/xniu/Assignment4/Question2/./Nilpotent_Job.out
+   
+
+
+SLURM Bank Statement:
+=====================
+
+User           Usage |        Account     Usage | Account Limit Available (CPU hrs)
+---------- --------- + -------------- --------- + ------------- ---------
+ashech             0 |         MSCHPC        29 |        10,000     9,971
+cheny35            0 |         MSCHPC        29 |        10,000     9,971
+chojnace           0 |         MSCHPC        29 |        10,000     9,971
+czhang4            0 |         MSCHPC        29 |        10,000     9,971
+ecurry             1 |         MSCHPC        29 |        10,000     9,971
+fugu               0 |         MSCHPC        29 |        10,000     9,971
+killalel           0 |         MSCHPC        29 |        10,000     9,971
+knightsk           0 |         MSCHPC        29 |        10,000     9,971
+lanem2            21 |         MSCHPC        29 |        10,000     9,971
+mcleodco           0 |         MSCHPC        29 |        10,000     9,971
+mli7               0 |         MSCHPC        29 |        10,000     9,971
+ofarrepa           4 |         MSCHPC        29 |        10,000     9,971
+prasannp           0 |         MSCHPC        29 |        10,000     9,971
+sheriddy           0 |         MSCHPC        29 |        10,000     9,971
+srajendr           0 |         MSCHPC        29 |        10,000     9,971
+szhang2            0 |         MSCHPC        29 |        10,000     9,971
+vacariem           0 |         MSCHPC        29 |        10,000     9,971
+xiangyu            0 |         MSCHPC        29 |        10,000     9,971
+xniu               0 |         MSCHPC        29 |        10,000     9,971
+yangmi             0 |         MSCHPC        29 |        10,000     9,971
+yaoco              1 |         MSCHPC        29 |        10,000     9,971
+
+
+Acknowledgements:
+=================
+
+Note that usage of TCHPC Resources *must* be acknowledged in all publications.
+
+Please see this page for details relevant to this cluster:
+
+http://www.tchpc.tcd.ie/resources/acknowledgementpolicy
+
+################################################################################
